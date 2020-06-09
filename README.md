@@ -6,10 +6,15 @@
   Here we explain JavaScript with Time Complexity and the Big O Notations
   
   Which include :-
+  
   -Linear Time Complexity
+  
   -Contant Time Complexity
+  
   -Logarithmic Time Complexity
+  
   -Quadric Time Complexity
+  
   -Exponential Time Complexity
   
   
