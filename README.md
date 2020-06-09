@@ -18,4 +18,4 @@
   -Exponential Time Complexity
   
   
-  We solve each Algorithm with Time Complexity in each JS file and Make a note of which Notation it belongs
+  > We solve each Algorithm with Time Complexity in each JS file and Make a note of which Notation it belongs
