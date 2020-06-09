@@ -1,11 +1,11 @@
 # JavaScript-Algorithms-WithTimeComplexity.
 
 
-  ## JavaScript With Algorithms 
+###### JavaScript With Algorithms 
   
   Here we explain JavaScript with Time Complexity and the Big O Notations
   
- ###### Which include :-
+ ## Which include :-
   
   -Linear Time Complexity
   
