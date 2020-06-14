@@ -1,15 +1,16 @@
-function fib(n){  // n = 3
-    // [1, 1, 2, 3, 5, 8]
-   if(n === 1 || n === 0){
-       return 1;
-   }
-   return fib(n -1) + fib(n -2);
+// Fibonacci Sequence
+function fib(n){
+  const numbers = [1,1]; // 1
+  for (let i = 2 ; i < n +1 ; i++){ // 1
+    // console.log("Running")    // n-1
+    numbers.push(numbers[i-2] + numbers[i-1]); // n-1
+  }
+  return numbers[n]; //1
 }
-
-//  loop-Based sol : O(n) => if we implement using Loops
-// O(n^2);
-//But we trigger multiple functio calls => n function calls
-//fib(4); => 09 executions
-//fib(5); => 15 executions
-//fib(6); => 25 executions
-// we have Exponential Time Complexity : O(2^n) 
+// Time Complexity 
+// T = 1 + 1 + 1 + n-1
+//console.log is uncommented it also runs n-1 times then,
+// T = 1 + 1 + 1 + 2*(n-1) = 3 + 2 * (n-1) = 3 + 2n-2 = 1+2n = 2n = n
+// The Big O
+// => O(n) - Linear Time Complexity
+console.log(fib(4));
