@@ -1,13 +1,12 @@
-// factorial in recursion method
-function fact(number){ //1
-    if (number === 1){
-        return 1;      // 1
+function fact(number) {
+   let factorial= 1;
+   // for (let i = 2 ;i <= number ; i++)
+    for (let i = number ; i >= 1 ; i--) {
+        factorial = factorial * i;
+      // console.log(i);
     }
-    return number * fact(number-1); //1
+    return factorial;
 }
-//In every function call => O(1)
-//T = n * O(1) => O(n)
-
+// Time Complexity is the O(n) => Linear Time Complexity
 console.log(fact(3));
-console.log(fact(4));
 console.log(fact(5));
